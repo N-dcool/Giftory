@@ -11,10 +11,6 @@ Giftory is a piece of Node code that lets you covert any piece of text (ideally 
 
 note : you will need to replace the Giphy API key in the code, as well as replace the text with any story you want!
 
-## DEMO VIDEO
-
-[![Giftory Demo](http://img.youtube.com/vi/iTZEAAA_dsM/0.jpg)](http://www.youtube.com/watch?v=iTZEAAA_dsM "Giftory Demo")
-
 ## CURRENT BUG/IMPROVEMENT LOG:
 
 - Works for most stories, but ffmpeg fails to merge randomly -- mostly issue with gif resolution/properties (attempted fix by forcing these properties to be the same but still fails)
