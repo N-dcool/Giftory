@@ -27,6 +27,7 @@
     "download-file": "^0.1.5",
     "fluent-ffmpeg": "^2.1.2",
     "giphy": "0.0.4",
+    "subtitle": "^4.2.1",
     "wordpos": "^1.1.5"
   }
 }

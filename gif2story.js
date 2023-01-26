@@ -1,5 +1,5 @@
 var WordPOS = require('wordpos'), wordpos = new WordPOS();
-var giphy = require( 'giphy' )(INSERT_API_KEY_AS_STRING_HERE);
+var giphy = require( 'giphy' )("dk8UgP1qz06LSpe5xtw0Y90DN2hTcvLY");
 const async = require('async');
 var download = require('download-file');
 var fs = require('fs');
@@ -7,7 +7,7 @@ var ffmpeg = require('fluent-ffmpeg');
 
 const { parse, stringify, resync, toMS, toSrtTime } = require('subtitle');
 
-var story = ["Jack and Jill went up the Hill to fetch a pail of water", "Jill fell down and broke her Crown", "Jack came tumbling after"];
+var story = ["batman"];
 
 var gifMap = new Map();
 
